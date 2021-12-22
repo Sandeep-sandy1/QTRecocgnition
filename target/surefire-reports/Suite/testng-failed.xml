@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Assessment_Automation.Automation.loginPage">
+        <methods>
+          <include name="getGoldColor"/>
+          <include name="getWhiteColor"/>
+        </methods>
+      </class> <!-- Assessment_Automation.Automation.loginPage -->
+      <class name="Assessment_Automation.Automation.recentKudosPage">
+        <methods>
+          <include name="recentContKudos"/>
+        </methods>
+      </class> <!-- Assessment_Automation.Automation.recentKudosPage -->
+      <class name="Assessment_Automation.Automation.kudosPage">
+        <methods>
+          <include name="kudosSend"/>
+        </methods>
+      </class> <!-- Assessment_Automation.Automation.kudosPage -->
+      <class name="Assessment_Automation.Automation.homePage">
+        <methods>
+          <include name="nameVerification"/>
+          <include name="imageVerifcation"/>
+        </methods>
+      </class> <!-- Assessment_Automation.Automation.homePage -->
+      <class name="Assessment_Automation.Automation.otherKudos">
+        <methods>
+          <include name="sendSelfKudos"/>
+        </methods>
+      </class> <!-- Assessment_Automation.Automation.otherKudos -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

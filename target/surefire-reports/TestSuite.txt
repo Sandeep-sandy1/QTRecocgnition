@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 753.099 s <<< FAILURE! - in TestSuite
+Assessment_Automation.Automation.otherKudos.sendSelfKudos  Time elapsed: 21.248 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.otherKudos.sendSelfKudos(otherKudos.java:110)
+
+Assessment_Automation.Automation.loginPage.getGoldColor  Time elapsed: 5.84 s  <<< FAILURE!
+java.lang.AssertionError: expected [#FECC160] but found [#FDCC16]
+	at Assessment_Automation.Automation.loginPage.getGoldColor(loginPage.java:77)
+
+Assessment_Automation.Automation.loginPage.getWhiteColor  Time elapsed: 8.099 s  <<< FAILURE!
+java.lang.AssertionError: expected [#939598] but found [#FFFFFF]
+	at Assessment_Automation.Automation.loginPage.getWhiteColor(loginPage.java:89)
+
+Assessment_Automation.Automation.kudosPage.kudosSend  Time elapsed: 32.388 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.kudosPage.kudosSend(kudosPage.java:45)
+
+Assessment_Automation.Automation.recentKudosPage.recentContKudos  Time elapsed: 49.88 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.recentKudosPage.recentContKudos(recentKudosPage.java:45)
+
+Assessment_Automation.Automation.homePage.imageVerifcation  Time elapsed: 25.782 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.homePage.imageVerifcation(homePage.java:45)
+
+Assessment_Automation.Automation.homePage.nameVerification  Time elapsed: 83.18 s  <<< FAILURE!
+java.lang.AssertionError: expected [Sandeep N] but found []
+	at Assessment_Automation.Automation.homePage.nameVerification(homePage.java:35)
+

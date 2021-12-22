@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">746,345</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Assessment_Automation.Automation.homePage</td><td><a href="#m0">imageVerifcation</a></td><td rowspan="1">1639980483483</td><td rowspan="1">25766</td></tr><tr class="failedeven"><td><a href="#m1">nameVerification</a></td><td rowspan="1">1639980509250</td><td rowspan="1">83170</td></tr><tr class="failedodd"><td rowspan="1">Assessment_Automation.Automation.kudosPage</td><td><a href="#m2">kudosSend</a></td><td rowspan="1">1639980275818</td><td rowspan="1">32415</td></tr><tr class="failedeven"><td rowspan="2">Assessment_Automation.Automation.loginPage</td><td><a href="#m3">getGoldColor</a></td><td rowspan="1">1639980221833</td><td rowspan="1">5845</td></tr><tr class="failedeven"><td><a href="#m4">getWhiteColor</a></td><td rowspan="1">1639980246016</td><td rowspan="1">8163</td></tr><tr class="failedodd"><td rowspan="1">Assessment_Automation.Automation.otherKudos</td><td><a href="#m5">sendSelfKudos</a></td><td rowspan="1">1639980167402</td><td rowspan="1">21258</td></tr><tr class="failedeven"><td rowspan="1">Assessment_Automation.Automation.recentKudosPage</td><td><a href="#m6">recentContKudos</a></td><td rowspan="1">1639980433581</td><td rowspan="1">49900</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Assessment_Automation.Automation.homePage</td><td><a href="#m7">titleVerification</a></td><td rowspan="1">1639980592421</td><td rowspan="1">143576</td></tr><tr class="passedodd"><td rowspan="1">Assessment_Automation.Automation.kudosPage</td><td><a href="#m8">kudosSendFailure</a></td><td rowspan="1">1639980308234</td><td rowspan="1">125341</td></tr><tr class="passedeven"><td rowspan="1">Assessment_Automation.Automation.kudosSearchPage</td><td><a href="#m9">kudosSearchClick</a></td><td rowspan="1">1639980735998</td><td rowspan="1">50866</td></tr><tr class="passedodd"><td rowspan="4">Assessment_Automation.Automation.loginPage</td><td><a href="#m10">aUserLogin</a></td><td rowspan="1">1639980188696</td><td rowspan="1">20842</td></tr><tr class="passedodd"><td><a href="#m11">bInvalidlogin</a></td><td rowspan="1">1639980209539</td><td rowspan="1">12293</td></tr><tr class="passedodd"><td><a href="#m12">getNavyColor</a></td><td rowspan="1">1639980227679</td><td rowspan="1">18331</td></tr><tr class="passedodd"><td><a href="#m13">titleVerification</a></td><td rowspan="1">1639980254180</td><td rowspan="1">21634</td></tr><tr class="passedeven"><td rowspan="4">Assessment_Automation.Automation.otherKudos</td><td><a href="#m14">kudosActivityClick</a></td><td rowspan="1">1639980040676</td><td rowspan="1">56760</td></tr><tr class="passedeven"><td><a href="#m15">kudosFromMeClick</a></td><td rowspan="1">1639980097441</td><td rowspan="1">16684</td></tr><tr class="passedeven"><td><a href="#m16">kudosToMeClick</a></td><td rowspan="1">1639980114126</td><td rowspan="1">16107</td></tr><tr class="passedeven"><td><a href="#m17">recentKudosCount</a></td><td rowspan="1">1639980130234</td><td rowspan="1">37167</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Assessment_Automation.Automation.homePage#imageVerifcation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.homePage.imageVerifcation(homePage.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Assessment_Automation.Automation.homePage#nameVerification</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Sandeep N] but found []
+	at Assessment_Automation.Automation.homePage.nameVerification(homePage.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Assessment_Automation.Automation.kudosPage#kudosSend</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.kudosPage.kudosSend(kudosPage.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Assessment_Automation.Automation.loginPage#getGoldColor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [#FECC160] but found [#FDCC16]
+	at Assessment_Automation.Automation.loginPage.getGoldColor(loginPage.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Assessment_Automation.Automation.loginPage#getWhiteColor</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [#939598] but found [#FFFFFF]
+	at Assessment_Automation.Automation.loginPage.getWhiteColor(loginPage.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Assessment_Automation.Automation.otherKudos#sendSelfKudos</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.otherKudos.sendSelfKudos(otherKudos.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Assessment_Automation.Automation.recentKudosPage#recentContKudos</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Assessment_Automation.Automation.recentKudosPage.recentContKudos(recentKudosPage.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Assessment_Automation.Automation.homePage#titleVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Assessment_Automation.Automation.kudosPage#kudosSendFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Assessment_Automation.Automation.kudosSearchPage#kudosSearchClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Assessment_Automation.Automation.loginPage#aUserLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Assessment_Automation.Automation.loginPage#bInvalidlogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Assessment_Automation.Automation.loginPage#getNavyColor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Assessment_Automation.Automation.loginPage#titleVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Assessment_Automation.Automation.otherKudos#kudosActivityClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Assessment_Automation.Automation.otherKudos#kudosFromMeClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Assessment_Automation.Automation.otherKudos#kudosToMeClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Assessment_Automation.Automation.otherKudos#recentKudosCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
